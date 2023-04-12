@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #f3f5fc;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#container{
+    width: 100%;
+    max-width: 1440px;
+    max-height: 1024;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+header{
+    box-sizing: border-box;
+    /*height: 80px;*/
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+    padding-top: 4%;
+}
+
+#content{
+    box-sizing: border-box;
+    float: left;
+    width: 70%;
+}
+
+.input_text_encriptar{
+    box-sizing: border-box;
+    background-color: #f3f5fc;
+    border: 0;
+    width: 80%;
+    font-size: 20px;
+    padding-bottom: 40%;
+    /*padding-right: 100px;
+    padding-left: 10px;*/
+    outline: 0;
+}
+
+#advertencia{
+    text-align: center;
+    color: #0a3871;
+}
+
+#botones{
+    padding-left: 25%;
+}
+
+.boton_copiar{
+    display: none;
+}
+
+button{
+    border-radius: 10px;
+    border-bottom:  #0a3871;
+    cursor: pointer;
+    
+    padding: 10px;
+    background: #0a3871;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+button:hover{
+    background: #f3f5fc;
+    color: #0a3871;
+}
+
+aside{
+    list-style: none;
+    float: left;
+    width: 30%;
+    height: 80%;
+    border-color: #0a3871;
+    box-sizing: border-box;     
+}
+
+.result{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20px;
+    background-color: #f3f5fc;
+    border: 0;
+    padding-bottom: 100%;
+    outline: 0;
+    display: none;
+}
+
+footer{
+    box-sizing: border-box;
+    background-color: lightgray;
+    color: #0a3871;
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+@media screen and (max-width: 400px) {
+    #content{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    .input_text_encriptar{
+        width: 100%;
+    }
+    .result{
+        width: 100%;
+        
+        
+    }
+   
+}
+
+@media screen and (max-width: 800px) {
+    #content{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    .input_text_encriptar{
+        width: 100%;
+    }
+    .result{
+        width: 100%;
+        
+    }
+   
+}
+
